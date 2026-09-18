@@ -1,0 +1,37 @@
+build/
+install/
+log/
+logs/
+*.bag
+*.db3
+rosbag/
+results/raw/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.env
+.DS_Store
+
+# Local agent instructions and task prompts
+AGENTS.md
+.agents/
+docs/agent-prompts/build/
+install/
+log/
+logs/
+*.bag
+*.db3
+rosbag/
+results/raw/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.env
+.DS_Store
+
+# Local agent instructions and task prompts
+AGENTS.md
+.agents/
+docs/agent-prompts/
