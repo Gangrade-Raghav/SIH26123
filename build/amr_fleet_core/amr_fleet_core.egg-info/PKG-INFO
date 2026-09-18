@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: amr-fleet-core
+Version: 0.1.0
+Summary: Core interface abstractions and state management for AMR fleet coordination.
+Maintainer: Antigravity Agent
+Maintainer-email: antigravity@local.dev
+License: Apache-2.0

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/FleetMetrics.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct FleetMetrics {
+      std_msgs::msg::Header header;
+
+      uint32 active_robots;
+
+      uint32 completed_tasks;
+
+      double throughput;
+
+      double p50_planning_latency_ms;
+
+      double p95_planning_latency_ms;
+
+      double p99_planning_latency_ms;
+
+      uint64 total_network_bytes;
+
+      uint32 deadlock_count;
+    };
+  };
+};

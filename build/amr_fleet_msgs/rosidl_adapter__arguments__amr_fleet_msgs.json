@@ -1,0 +1,30 @@
+{
+  "package_name": "amr_fleet_msgs",
+  "non_idl_tuples": [
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/RobotStatus.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/TaskBid.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/TaskAssignment.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/BlockedResource.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/FleetMetrics.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/TaskDefinition.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/TaskEvent.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/TaskList.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/CBBABid.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/RobotBundle.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/PlanningRequest.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/PlanningResponse.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/RollingHorizonPlan.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/SpaceTimeReservation.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/ConflictReport.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/DeadlockEvent.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/CoordinationStatus.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/CommunicationProfile.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/CommunicationMetrics.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/ComputeModeEvent.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/AisleBlockageEvent.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:msg/RobotHealth.msg",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:srv/CreateTask.srv",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:srv/ControlTask.srv",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs:srv/InjectFault.srv"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "package_name": "amr_fleet_msgs",
+  "output_dir": "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_generator_type_description/amr_fleet_msgs",
+  "idl_tuples": [
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/RobotStatus.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/TaskBid.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/TaskAssignment.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/BlockedResource.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/FleetMetrics.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/TaskDefinition.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/TaskEvent.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/TaskList.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/CBBABid.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/RobotBundle.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/PlanningRequest.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/PlanningResponse.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/RollingHorizonPlan.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/SpaceTimeReservation.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/ConflictReport.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/DeadlockEvent.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/CoordinationStatus.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/CommunicationProfile.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/CommunicationMetrics.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/ComputeModeEvent.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/AisleBlockageEvent.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:msg/RobotHealth.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:srv/CreateTask.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:srv/ControlTask.idl",
+    "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/rosidl_adapter/amr_fleet_msgs:srv/InjectFault.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

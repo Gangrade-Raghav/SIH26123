@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: amr-fleet-sim
+Version: 0.1.0
+Summary: Lightweight MAPF simulation backend.
+Maintainer: Antigravity Agent
+Maintainer-email: antigravity@local.dev
+License: Apache-2.0

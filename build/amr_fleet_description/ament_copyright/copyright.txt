@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml
+
+No problems found, checked 1 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml'

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: amr-fleet-bringup
+Version: 0.1.0
+Summary: Launch scripts and fleet bringup scaffolding.
+Maintainer: Antigravity Agent
+Maintainer-email: antigravity@local.dev
+License: Apache-2.0

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/CBBABid.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct CBBABid {
+      std_msgs::msg::Header header;
+
+      string robot_id;
+
+      uint32 iteration;
+
+      sequence<string> task_ids;
+
+      sequence<double> winning_bids;
+
+      sequence<string> winning_robots;
+
+      sequence<double> timestamps;
+    };
+  };
+};

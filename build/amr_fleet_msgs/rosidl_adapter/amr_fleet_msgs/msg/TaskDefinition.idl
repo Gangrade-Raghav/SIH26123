@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/TaskDefinition.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct TaskDefinition {
+      std_msgs::msg::Header header;
+
+      string task_id;
+
+      geometry_msgs::msg::Point pickup_pose;
+
+      geometry_msgs::msg::Point dropoff_pose;
+
+      int32 priority;
+
+      builtin_interfaces::msg::Time created_at;
+
+      builtin_interfaces::msg::Time deadline;
+
+      string status;
+
+      string assigned_robot_id;
+
+      string requested_robot;
+    };
+  };
+};

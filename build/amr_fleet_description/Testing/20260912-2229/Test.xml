@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260912-2229-Experimental"
+	Name="Raze"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="Raze"
+	OSRelease="6.8.0-139-generic"
+	OSVersion="#139-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 03:52:05 UTC 2026"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="31681"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3800.05"
+	>
+	<Testing>
+		<StartDateTime>Sep 13 03:59 IST</StartDateTime>
+		<StartTestTime>1789252179</StartTestTime>
+		<TestList>
+			<Test>./copyright</Test>
+			<Test>./flake8</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./pep257</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.170695</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml
+No problems found, checked 1 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>flake8</Name>
+			<Path>.</Path>
+			<FullName>./flake8</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.238976</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml
+
+1 files checked
+No problems found
+
+Checked files:
+
+* ./launch/view_robot.launch.py
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>flake8</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.116887</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.157714</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml
+checking ./launch/view_robot.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.22038</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Sep 13 03:59 IST</EndDateTime>
+		<EndTestTime>1789252181</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

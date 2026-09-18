@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from amr_fleet_msgs/srv/InjectFault.srv
+// generated code does not contain a copyright notice
+
+
+module amr_fleet_msgs {
+  module srv {
+    struct InjectFault_Request {
+      string fault_type;
+
+      double duration_sec;
+    };
+    struct InjectFault_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

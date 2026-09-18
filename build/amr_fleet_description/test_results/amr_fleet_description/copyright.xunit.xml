@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="amr_fleet_description.copyright"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.639"
+>
+  <testcase
+    name="launch/view_robot.launch.py"
+    classname="amr_fleet_description.copyright"/>
+  <system-out>Checked files:
+* launch/view_robot.launch.py</system-out>
+</testsuite>

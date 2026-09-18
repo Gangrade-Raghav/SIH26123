@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-14dd0653890b3a5d984f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "amr_fleet_msgs__py",
+					"jsonFile" : "directory-amr_fleet_msgs__py-Release-f4d14da93da9d153d850.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/amr_fleet_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "amr_fleet_msgs__rs",
+					"jsonFile" : "directory-amr_fleet_msgs__rs-Release-a195b6ecc23098a2034c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs/amr_fleet_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "amr_fleet_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_amr_fleet_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_amr_fleet_msgs_egg-Release-d294a5e5d53f07896309.json",
+					"name" : "ament_cmake_python_build_amr_fleet_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_amr_fleet_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_amr_fleet_msgs-Release-40bfc3071534de83e566.json",
+					"name" : "ament_cmake_python_symlink_amr_fleet_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs-Release-3554b34e4c87f2f49758.json",
+					"name" : "amr_fleet_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__cpp-Release-242dd243f6a361279d1c.json",
+					"name" : "amr_fleet_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "amr_fleet_msgs__py::@8e1bc9400f9d598028d4",
+					"jsonFile" : "target-amr_fleet_msgs__py-Release-c47a11c1241252ba3a55.json",
+					"name" : "amr_fleet_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_generator_c-Release-420f9ea7add4c16fbd62.json",
+					"name" : "amr_fleet_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_generator_py-Release-e2b6785cec85f94a6ff7.json",
+					"name" : "amr_fleet_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_generator_type_description-Release-9d89d961921a1d307f41.json",
+					"name" : "amr_fleet_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_typesupport_c-Release-e34274322e6487c90594.json",
+					"name" : "amr_fleet_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_typesupport_cpp-Release-1e5d2303a6cd1a63d080.json",
+					"name" : "amr_fleet_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_typesupport_fastrtps_c-Release-b07c96165e48c6591a56.json",
+					"name" : "amr_fleet_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_typesupport_fastrtps_cpp-Release-654a2d0c6a342e258304.json",
+					"name" : "amr_fleet_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_typesupport_introspection_c-Release-526ce603172ff6165e9b.json",
+					"name" : "amr_fleet_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs__rosidl_typesupport_introspection_cpp-Release-1881a8de554d3fefbb25.json",
+					"name" : "amr_fleet_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "amr_fleet_msgs__rs::@4bad690b65a87562d46b",
+					"jsonFile" : "target-amr_fleet_msgs__rs-Release-df1452397a6eeaf634e1.json",
+					"name" : "amr_fleet_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs_s__rosidl_typesupport_c-Release-8c3a1d41ddbf32b0a7ed.json",
+					"name" : "amr_fleet_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs_s__rosidl_typesupport_fastrtps_c-Release-079a7e34024d1fb9feac.json",
+					"name" : "amr_fleet_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs_s__rosidl_typesupport_introspection_c-Release-6d8b2b8a75d348e4f462.json",
+					"name" : "amr_fleet_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_fleet_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_fleet_msgs_uninstall-Release-23f7d8326fea0183f99e.json",
+					"name" : "amr_fleet_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7d2b1f2a5212d008ca25.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_msgs",
+		"source" : "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,126 @@
+Start testing: Sep 13 11:36 IST
+----------------------------------------------------------
+1/5 Testing: copyright
+1/5 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml"
+Directory: /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description
+"copyright" start time: Sep 13 11:36 IST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml
+No problems found, checked 1 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/copyright.xunit.xml'
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: Sep 13 11:36 IST
+"copyright" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: flake8
+2/5 Test: flake8
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml"
+Directory: /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description
+"flake8" start time: Sep 13 11:36 IST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml
+
+1 files checked
+No problems found
+
+Checked files:
+
+* ./launch/view_robot.launch.py
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/flake8.xunit.xml'
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"flake8" end time: Sep 13 11:36 IST
+"flake8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: lint_cmake
+3/5 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml"
+Directory: /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description
+"lint_cmake" start time: Sep 13 11:36 IST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Sep 13 11:36 IST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: pep257
+4/5 Test: pep257
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml"
+Directory: /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description
+"pep257" start time: Sep 13 11:36 IST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml
+checking ./launch/view_robot.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/pep257.xunit.xml'
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Sep 13 11:36 IST
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: xmllint
+5/5 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml" "--package-name" "amr_fleet_description" "--output-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml"
+Directory: /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description
+"xmllint" start time: Sep 13 11:36 IST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/src/amr_fleet_description':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/raghav/Downloads/NRDAS_Antigravity_Project_Starter/antigravity_amr_project/build/amr_fleet_description/test_results/amr_fleet_description/xmllint.xunit.xml'
+<end of output>
+Test time =   1.96 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Sep 13 11:36 IST
+"xmllint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Sep 13 11:36 IST
+
+copyright =   0.18 sec*proc
+
+flake8 =   0.23 sec*proc
+
+lint_cmake =   0.12 sec*proc
+
+linter =   2.63 sec*proc
+
+pep257 =   0.15 sec*proc
+
+xmllint =   1.96 sec*proc
+

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/PlanningRequest.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct PlanningRequest {
+      std_msgs::msg::Header header;
+
+      string robot_id;
+
+      geometry_msgs::msg::Point start_pose;
+
+      geometry_msgs::msg::Point goal_pose;
+
+      uint32 horizon_steps;
+
+      uint32 execution_window;
+
+      string task_id;
+
+      string sub_goal_type;
+    };
+  };
+};

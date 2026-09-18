@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/TaskBid.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct TaskBid {
+      std_msgs::msg::Header header;
+
+      string robot_id;
+
+      string task_id;
+
+      double bid_value;
+
+      double path_cost;
+
+      uint64 allocation_epoch;
+    };
+  };
+};

@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/CommunicationMetrics.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct CommunicationMetrics {
+      std_msgs::msg::Header header;
+
+      string profile_name;
+
+      uint64 messages_sent;
+
+      uint64 messages_delivered;
+
+      uint64 messages_dropped;
+
+      double packet_loss_rate;
+
+      double avg_latency_ms;
+
+      double p95_latency_ms;
+
+      double jitter_ms;
+
+      uint32 burst_events_count;
+
+      boolean outage_active;
+
+      uint32 stale_messages_count;
+
+      uint32 expired_reservations_count;
+
+      double min_distance_m;
+
+      uint32 collision_count;
+
+      uint32 safety_interventions;
+    };
+  };
+};

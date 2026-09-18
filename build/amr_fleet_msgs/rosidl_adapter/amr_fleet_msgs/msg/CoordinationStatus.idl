@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/CoordinationStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct CoordinationStatus {
+      std_msgs::msg::Header header;
+
+      string robot_id;
+
+      double priority;
+
+      int32 current_cell_x;
+
+      int32 current_cell_y;
+
+      int32 target_cell_x;
+
+      int32 target_cell_y;
+
+      int32 time_step;
+
+      string status;
+
+      string waiting_for_robot;
+
+      double pose_x;
+
+      double pose_y;
+    };
+  };
+};

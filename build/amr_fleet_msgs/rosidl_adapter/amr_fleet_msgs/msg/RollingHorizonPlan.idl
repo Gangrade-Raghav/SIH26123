@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_fleet_msgs/msg/RollingHorizonPlan.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module amr_fleet_msgs {
+  module msg {
+    struct RollingHorizonPlan {
+      std_msgs::msg::Header header;
+
+      string robot_id;
+
+      sequence<string> assigned_bundle;
+
+      string current_task_id;
+
+      string current_phase;
+
+      geometry_msgs::msg::Point current_goal;
+
+      sequence<geometry_msgs::msg::Point> horizon_path;
+
+      sequence<geometry_msgs::msg::Point> execution_path;
+
+      uint32 horizon_steps;
+
+      uint32 execution_window;
+
+      uint32 replan_count;
+
+      double planning_latency_ms;
+
+      boolean is_valid;
+    };
+  };
+};

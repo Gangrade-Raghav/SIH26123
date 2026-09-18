@@ -1,0 +1,2 @@
+[console_scripts]
+warehouse_visualizer = amr_fleet_bringup.warehouse_visualizer:main

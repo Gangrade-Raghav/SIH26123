@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from amr_fleet_msgs/srv/CreateTask.srv
+// generated code does not contain a copyright notice
+
+
+module amr_fleet_msgs {
+  module srv {
+    struct CreateTask_Request {
+      string task_id;
+
+      double pickup_x;
+
+      double pickup_y;
+
+      double dropoff_x;
+
+      double dropoff_y;
+
+      int32 priority;
+
+      double deadline;
+
+      string requested_robot;
+    };
+    struct CreateTask_Response {
+      boolean accepted;
+
+      string task_id;
+
+      string message;
+    };
+  };
+};

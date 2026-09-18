@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from amr_fleet_msgs/srv/ControlTask.srv
+// generated code does not contain a copyright notice
+
+
+module amr_fleet_msgs {
+  module srv {
+    struct ControlTask_Request {
+      string task_id;
+
+      string action;
+    };
+    struct ControlTask_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};
